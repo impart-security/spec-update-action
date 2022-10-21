@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "noEmit": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@/openapi": ["../../../api/openapi_gen/ts/openapi"]
+    }
+  },
+  "include": ["./src"]
+}

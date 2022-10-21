@@ -1,0 +1,30 @@
+name: "Specification update"
+description: "Update a specification for a given organization."
+inputs:
+  access_token:
+    description: "An access token with both `write:org_specs` and `read:org_specs` permissions."
+    required: true
+    default: ""
+  org_id:
+    description: "The ID of the organization."
+    required: true
+    default: ""
+  spec_id:
+    description: "The ID of the specification."
+    required: true
+    default: ""
+  path:
+    description: "The path to the spec file."
+    required: true
+    default: ""
+  name:
+    description: "The name of the specification."
+    required: false
+    default: ""
+  hostname:
+    description: "The hostname of the api."
+    required: false
+    default: "api.impartsecurity.net"
+runs:
+  using: "node16"
+  main: "dist/index.js"
