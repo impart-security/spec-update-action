@@ -1,3 +1,6 @@
+> **Warning**
+> 
+> This action has been archived. Use the [`impart-cli`](https://www.npmjs.com/package/@impart-security/impart-cli) package within GitHub actions instead.
 
 # Specification update action
 
